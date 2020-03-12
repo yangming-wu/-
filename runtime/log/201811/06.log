@@ -1,0 +1,315 @@
+---------------------------------------------------------------
+[ 2018-11-06T22:54:27+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.039329s] [吞吐率：25.43req/s] [内存消耗：1,340.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:54:28+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.032187s] [吞吐率：31.07req/s] [内存消耗：1,340.70kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:55:39+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.031420s] [吞吐率：31.83req/s] [内存消耗：1,341.86kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:55:41+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.030346s] [吞吐率：32.95req/s] [内存消耗：1,341.86kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:55:57+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.033277s] [吞吐率：30.05req/s] [内存消耗：1,341.80kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:55:58+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.030234s] [吞吐率：33.08req/s] [内存消耗：1,341.80kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:55:59+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.033354s] [吞吐率：29.98req/s] [内存消耗：1,341.80kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:56:24+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.046940s] [吞吐率：21.30req/s] [内存消耗：1,734.48kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'admin/',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T22:57:19+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.029914s] [吞吐率：33.43req/s] [内存消耗：1,311.16kb] [文件加载：49]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:57:28+08:00 ] 127.0.0.1 GET www.tp.com/admin/index
+[运行时间：0.033971s] [吞吐率：29.44req/s] [内存消耗：1,341.75kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:57:35+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.034218s] [吞吐率：29.22req/s] [内存消耗：1,341.75kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T22:58:11+08:00 ] 127.0.0.1 GET www.tp.com/index/login
+[运行时间：0.048451s] [吞吐率：20.64req/s] [内存消耗：1,812.56kb] [文件加载：61]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:01:08+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.037437s] [吞吐率：26.71req/s] [内存消耗：1,734.44kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'index/',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:01:24+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.040449s] [吞吐率：24.72req/s] [内存消耗：1,782.53kb] [文件加载：60]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'index/index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:01:25+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.041362s] [吞吐率：24.18req/s] [内存消耗：1,782.53kb] [文件加载：60]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'index/index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:01:26+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.040991s] [吞吐率：24.40req/s] [内存消耗：1,782.53kb] [文件加载：60]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'index/index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:01:31+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.037393s] [吞吐率：26.74req/s] [内存消耗：1,734.85kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'login',
+  'route' => 'index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'index/index/',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:04:47+08:00 ] 127.0.0.1 GET www.tp.com/login
+[运行时间：0.033288s] [吞吐率：30.04req/s] [内存消耗：1,341.11kb] [文件加载：50]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2018-11-06T23:04:53+08:00 ] 127.0.0.1 GET www.tp.com/admin/login
+[运行时间：0.036239s] [吞吐率：27.59req/s] [内存消耗：1,735.02kb] [文件加载：56]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => 'index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'method' => 'get',
+    'prefix' => 'index/index/',
+    'name' => 'admin',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'purpose' => 'prefetch',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[ 2018-11-06T23:12:28+08:00 ] 127.0.0.1 GET www.tp.com/index/demo/index
+[运行时间：0.053344s] [吞吐率：18.75req/s] [内存消耗：1,993.66kb] [文件加载：64]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] F:\www\class\web69\tp5.1\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2018-11-06T23:12:31+08:00 ] 127.0.0.1 GET www.tp.com/index/demo/indexr
+[运行时间：0.040185s] [吞吐率：24.88req/s] [内存消耗：1,804.22kb] [文件加载：61]
+[ info ] [ LANG ] F:\www\class\web69\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.tp.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'dnt' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://www.tp.com/index/demo/index',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)

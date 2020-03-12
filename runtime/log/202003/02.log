@@ -1,0 +1,363 @@
+---------------------------------------------------------------
+[ 2020-03-02T09:52:30+08:00 ] ::1 GET localhost/tumor/public/index.php/admin/login
+[运行时间：0.173674s] [吞吐率：5.76req/s] [内存消耗：3,166.59kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2020-03-02T09:52:40+08:00 ] ::1 POST localhost.localhost/tumor/public/index.php/admin/login
+[运行时间：0.162525s] [吞吐率：6.15req/s] [内存消耗：5,773.42kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/loginHandler',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost.localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '72',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://localhost/tumor/public/index.php/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9a242aeadfce3de70828a58bbac626b5',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010158s ] mysql:host=localhost;port=3306;dbname=tumor;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.009168s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000839s ]
+---------------------------------------------------------------
+[ 2020-03-02T09:52:44+08:00 ] ::1 GET localhost/tumor/public/index.php/admin/login
+[运行时间：0.116658s] [吞吐率：8.57req/s] [内存消耗：3,166.59kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=5er2iq577c2kdkvnptfjdp3mp4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2020-03-02T09:53:13+08:00 ] ::1 POST localhost.localhost/tumor/public/index.php/admin/login
+[运行时间：0.152634s] [吞吐率：6.55req/s] [内存消耗：5,773.50kb] [文件加载：74]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/loginHandler',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost.localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '72',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://localhost/tumor/public/index.php/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnfocjk7m28rjbb64vc4dhj3u6',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'a8520795bed89df5cedf53f6112b7d0f',
+  'username' => 'admin',
+  'password' => 'admin',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011482s ] mysql:host=localhost;port=3306;dbname=tumor;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.001947s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000585s ]
+---------------------------------------------------------------
+[ 2020-03-02T09:53:15+08:00 ] ::1 GET localhost/tumor/public/index.php/admin/login
+[运行时间：0.104698s] [吞吐率：9.55req/s] [内存消耗：3,166.59kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=5er2iq577c2kdkvnptfjdp3mp4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2020-03-02T09:53:21+08:00 ] ::1 POST localhost.localhost/tumor/public/index.php/admin/login
+[运行时间：0.172501s] [吞吐率：5.80req/s] [内存消耗：5,785.66kb] [文件加载：76]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/loginHandler',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost.localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '70',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://localhost/tumor/public/index.php/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnfocjk7m28rjbb64vc4dhj3u6',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '9d061f65b29f44e7aa940215692aafe6',
+  'username' => 'admin',
+  'password' => 'adm',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\wamp64\www\tumor\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011519s ] mysql:host=localhost;port=3306;dbname=tumor;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_users` [ RunTime:0.002030s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_users` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000668s ]
+---------------------------------------------------------------
+[ 2020-03-02T09:53:24+08:00 ] ::1 GET localhost/tumor/public/index.php/admin/login
+[运行时间：0.102201s] [吞吐率：9.78req/s] [内存消耗：3,166.59kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=5er2iq577c2kdkvnptfjdp3mp4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2020-03-02T09:53:31+08:00 ] ::1 POST localhost.localhost/tumor/public/index.php/admin/login
+[运行时间：0.103435s] [吞吐率：9.67req/s] [内存消耗：3,381.35kb] [文件加载：64]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/loginHandler',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost.localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '62',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'referer' => 'http://localhost/tumor/public/index.php/admin/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=qnfocjk7m28rjbb64vc4dhj3u6',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '3389a65a273731c236e2f5791d450aaf',
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\thinkphp\tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+---------------------------------------------------------------
+[ 2020-03-02T09:53:35+08:00 ] ::1 GET localhost/tumor/public/index.php/admin/login
+[运行时间：0.102820s] [吞吐率：9.73req/s] [内存消耗：3,166.59kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'cross-site',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; PHPSESSID=5er2iq577c2kdkvnptfjdp3mp4',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\application\admin\view\login\index.html [ array (
+) ]
+---------------------------------------------------------------
+[ 2020-03-02T11:37:13+08:00 ] ::1 GET localhost/tumor/public/index.php/admin/login
+[运行时间：0.121557s] [吞吐率：8.23req/s] [内存消耗：3,166.76kb] [文件加载：65]
+[ info ] [ LANG ] C:\wamp64\www\tumor\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'admin/login',
+  'route' => '@admin/login/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tumor\application\admin\view\login\index.html [ array (
+) ]

@@ -1,0 +1,120 @@
+---------------------------------------------------------------
+[ 2020-02-21T21:40:31+08:00 ] ::1 GET localhost/tp5.1/public/index.php
+[运行时间：0.161937s] [吞吐率：6.18req/s] [内存消耗：3,157.42kb] [文件加载：63]
+[ info ] [ LANG ] C:\wamp64\www\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [64]Default value for parameters with a class type hint can only be NULL[C:\wamp64\www\tp5.1\application\index\controller\Index.php:120]
+---------------------------------------------------------------
+[ 2020-02-21T21:45:13+08:00 ] ::1 GET localhost/tp5.1/public/index.php
+[运行时间：0.142359s] [吞吐率：7.02req/s] [内存消耗：3,434.16kb] [文件加载：66]
+[ info ] [ LANG ] C:\wamp64\www\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tp5.1\application\index\view\index\index.html [ array (
+  0 => 'webname',
+  1 => 'aa',
+  2 => 'arr',
+  3 => 'code',
+) ]
+---------------------------------------------------------------
+[ 2020-02-21T21:45:47+08:00 ] ::1 GET localhost/tp5.1/public/index.php/a
+[运行时间：0.122295s] [吞吐率：8.18req/s] [内存消耗：3,020.25kb] [文件加载：62]
+[ info ] [ LANG ] C:\wamp64\www\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => 'a',
+  'route' => '@index/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] C:\wamp64\www\tp5.1\application\index\view\index\index.html [ array (
+  0 => 'webname',
+  1 => 'aa',
+  2 => 'arr',
+  3 => 'code',
+) ]
+---------------------------------------------------------------
+[ 2020-02-21T21:48:24+08:00 ] ::1 GET localhost/tp5.1/public/index.php/a
+[运行时间：0.110816s] [吞吐率：9.02req/s] [内存消耗：2,578.99kb] [文件加载：56]
+[ info ] [ LANG ] C:\wamp64\www\tp5.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+[ 2020-02-21T21:48:29+08:00 ] ::1 GET localhost/tp5.1/public/index.php
+[运行时间：0.104241s] [吞吐率：9.59req/s] [内存消耗：2,945.52kb] [文件加载：59]
+[ info ] [ LANG ] C:\wamp64\www\tp5.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => '@index/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.19 Safari/537.36',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'sec-fetch-site' => 'none',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
